@@ -7,12 +7,12 @@
 
 
 
-str1="learn"
-str2="Python"
+str1="listen"
+str2="silent"
 str2_list=list(str2)
 result="yes"
-for i in range (len(str1)):
-    char=str1[i]
+
+for char in str1:
     found_match=False
     for j in range(len(str2_list)):
         if char==str2_list[j]:
