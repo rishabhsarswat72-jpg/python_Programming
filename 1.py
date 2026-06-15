@@ -5,6 +5,14 @@
 #         new_list.append(w)
 # print(new_list)
 
+#remove duplicate in a list and print list without duplicate 
+list=[1,2,2,3,4,4]
+new_list=[]
+for num in list:
+    if num not in new_list:
+        new_list.append(num)
+print(new_list)
+
 
 
 str1="listen"
