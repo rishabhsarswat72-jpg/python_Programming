@@ -1,0 +1,8 @@
+arr=[3,4,5,2]
+names=["Ram", "Shyam", "Seeta", "Geeta"]
+new_list=[]
+for num in range(len(arr)):
+    for w in range (arr[num]):
+        new_list.append(names[num])
+print(new_list)
+        
