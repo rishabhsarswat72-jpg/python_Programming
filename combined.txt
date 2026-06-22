@@ -1,0 +1,6 @@
+--- source.txt ---
+hello
+my name is rishabh
+--- dest.txt ---
+hello
+my name is rishabh
